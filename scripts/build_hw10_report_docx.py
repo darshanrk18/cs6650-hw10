@@ -71,8 +71,11 @@ def main() -> None:
                 continue
             sec_heads = {
                 "Setup (one sentence)",
+                "Which leader–follower profile “wins” on throughput (ops in 50s) per write ratio?",
+                "Reasoning (tie to mechanism, not graph shapes)",
                 "Throughput vs write fraction (leader–follower)",
                 "Staleness",
+                "Application fit (which database style for what workload?)",
                 "Figures",
             }
             if line in sec_heads:

@@ -4,6 +4,8 @@ In-memory HTTP key-value services that simulate replication latency so you can o
 
 **AI assistance:** Scaffold, replication logic, tests, Docker/Terraform, load test, and this README were developed with help from an AI coding agent; you should trace through the code and run tests before submitting.
 
+**Course submission:** The assignment asks for a **Khoury Git** URL and a **PDF** report. See **`docs/SUBMISSION.md`** (checklist, Khoury push, PDF export) and **`docs/HANDOVER.md`** (how writes/reads/N-R-W work, errors, tricky bits — so you can explain the code yourself).
+
 ## API
 
 | Operation | Method | Notes |
@@ -153,7 +155,7 @@ Collect JSON from four write ratios × three leader-follower profiles + leaderle
 
 Draft bullets tied to the **AWS** run live in `results/aws/WRITEUP_SNIPPETS.txt`; aggregate ops/stale counts in `results/aws/AWS_RUN_SUMMARY.txt`.
 
-Word report (summary + analysis + all AWS histogram PNGs):
+Word report (summary + analysis + all AWS histogram PNGs). **Submit a PDF:** open the `.docx` and use *Save As → PDF* (or your PDF printer).
 
 ```bash
 pip install python-docx
