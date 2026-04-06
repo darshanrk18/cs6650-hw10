@@ -1,0 +1,14 @@
+/bin/
+*.exe
+.DS_Store
+.idea/
+.vscode/
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+# Local load-test JSON can be huge; AWS + summaries are small enough to commit for HW.
+results/*
+!results/aws/
+!results/aws/**
+

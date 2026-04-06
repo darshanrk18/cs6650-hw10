@@ -1,0 +1,74 @@
+# 5-node leader-follower cluster. Index 0 is always the leader.
+# Usage:
+#   QUORUM_PROFILE=w5r1 docker compose -f docker-compose.leader-follower.yml up --build
+# Load test (from host): map ports 8080–8084 to lf0–lf4 (see ports: below).
+
+services:
+  lf0:
+    build:
+      context: .
+      dockerfile: Dockerfile.leader-follower
+    environment:
+      PEERS: http://lf0:8080,http://lf1:8080,http://lf2:8080,http://lf3:8080,http://lf4:8080
+      NODE_INDEX: "0"
+      QUORUM_PROFILE: ${QUORUM_PROFILE:-w5r1}
+      PORT: "8080"
+    ports:
+      - "8080:8080"
+    networks: [kv]
+
+  lf1:
+    build:
+      context: .
+      dockerfile: Dockerfile.leader-follower
+    environment:
+      PEERS: http://lf0:8080,http://lf1:8080,http://lf2:8080,http://lf3:8080,http://lf4:8080
+      NODE_INDEX: "1"
+      QUORUM_PROFILE: ${QUORUM_PROFILE:-w5r1}
+      PORT: "8080"
+    ports:
+      - "8081:8080"
+    networks: [kv]
+
+  lf2:
+    build:
+      context: .
+      dockerfile: Dockerfile.leader-follower
+    environment:
+      PEERS: http://lf0:8080,http://lf1:8080,http://lf2:8080,http://lf3:8080,http://lf4:8080
+      NODE_INDEX: "2"
+      QUORUM_PROFILE: ${QUORUM_PROFILE:-w5r1}
+      PORT: "8080"
+    ports:
+      - "8082:8080"
+    networks: [kv]
+
+  lf3:
+    build:
+      context: .
+      dockerfile: Dockerfile.leader-follower
+    environment:
+      PEERS: http://lf0:8080,http://lf1:8080,http://lf2:8080,http://lf3:8080,http://lf4:8080
+      NODE_INDEX: "3"
+      QUORUM_PROFILE: ${QUORUM_PROFILE:-w5r1}
+      PORT: "8080"
+    ports:
+      - "8083:8080"
+    networks: [kv]
+
+  lf4:
+    build:
+      context: .
+      dockerfile: Dockerfile.leader-follower
+    environment:
+      PEERS: http://lf0:8080,http://lf1:8080,http://lf2:8080,http://lf3:8080,http://lf4:8080
+      NODE_INDEX: "4"
+      QUORUM_PROFILE: ${QUORUM_PROFILE:-w5r1}
+      PORT: "8080"
+    ports:
+      - "8084:8080"
+    networks: [kv]
+
+networks:
+  kv:
+    name: kv-lf-net

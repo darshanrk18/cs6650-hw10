@@ -1,0 +1,14 @@
+Cloud load tests (50s each, 8 workers) vs terraform Elastic IP. LF quorum switched on EC2 via SSM (scripts/aws_ec2_set_lf_quorum.sh); full sweep: scripts/aws_loadtest_cloud_all_lf.sh
+
+EIP: terraform output -raw kv_public_ip (this run: 35.174.237.75)
+
+Leader–follower w5r1: 1421 / 1221 / 536 / 319 ops @ w 0.01,0.1,0.5,0.9 — stale 0
+Leader–follower w1r5:  843 / 1538 / 1825 / 2160 ops — stale 0
+Leader–follower r3w3: 1273 / 1259 / 797 / 549 ops — stale 0
+
+Leaderless: 1841 / 1223 / 524 / 304 ops — stale 6, 4, 0, 0 (writes 1%, 10%, 50%, 90%)
+
+Manual / no SSM: REMOTE_UPDATE=0 PROMPT_BETWEEN_PROFILES=1 ./scripts/aws_loadtest_cloud_all_lf.sh
+
+Plots: ./scripts/plot_results_dir.sh results/aws results/aws/figs
+Report draft: results/aws/WRITEUP_SNIPPETS.txt

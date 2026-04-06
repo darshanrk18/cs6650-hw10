@@ -1,0 +1,14 @@
+# Copy to terraform.tfvars and adjust.
+
+aws_region = "us-east-1"
+
+# Full AWS account (can create IAM):
+# manage_iam               = true
+# existing_instance_profile = ""  # ignored when manage_iam is true
+
+# AWS Academy / Vocareum / restricted IAM:
+manage_iam                = false
+existing_instance_profile = "LabInstanceProfile" # replace with the name shown in EC2 → Launch → IAM instance profile
+
+# Optional:
+# instance_type = "t3.small"

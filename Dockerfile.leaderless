@@ -1,0 +1,14 @@
+# Build: docker build -f Dockerfile.leaderless -t kv-leaderless .
+FROM --platform=linux/amd64 golang:1.22-alpine AS build
+WORKDIR /src
+COPY go.mod ./
+RUN go mod download
+COPY . .
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -trimpath -ldflags="-s -w" -o /out/kv ./cmd/leaderless
+
+FROM --platform=linux/amd64 alpine:3.19
+RUN adduser -D -u 65532 app
+USER 65532:65532
+COPY --from=build /out/kv /kv
+EXPOSE 8080
+ENTRYPOINT ["/kv"]

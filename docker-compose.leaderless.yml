@@ -1,0 +1,61 @@
+# 5-node leaderless cluster (W=N, R=1).
+
+services:
+  ll0:
+    build:
+      context: .
+      dockerfile: Dockerfile.leaderless
+    environment:
+      PEERS: http://ll0:8080,http://ll1:8080,http://ll2:8080,http://ll3:8080,http://ll4:8080
+      NODE_INDEX: "0"
+      PORT: "8080"
+    ports: ["18080:8080"]
+    networks: [kv]
+
+  ll1:
+    build:
+      context: .
+      dockerfile: Dockerfile.leaderless
+    environment:
+      PEERS: http://ll0:8080,http://ll1:8080,http://ll2:8080,http://ll3:8080,http://ll4:8080
+      NODE_INDEX: "1"
+      PORT: "8080"
+    ports: ["18081:8080"]
+    networks: [kv]
+
+  ll2:
+    build:
+      context: .
+      dockerfile: Dockerfile.leaderless
+    environment:
+      PEERS: http://ll0:8080,http://ll1:8080,http://ll2:8080,http://ll3:8080,http://ll4:8080
+      NODE_INDEX: "2"
+      PORT: "8080"
+    ports: ["18082:8080"]
+    networks: [kv]
+
+  ll3:
+    build:
+      context: .
+      dockerfile: Dockerfile.leaderless
+    environment:
+      PEERS: http://ll0:8080,http://ll1:8080,http://ll2:8080,http://ll3:8080,http://ll4:8080
+      NODE_INDEX: "3"
+      PORT: "8080"
+    ports: ["18083:8080"]
+    networks: [kv]
+
+  ll4:
+    build:
+      context: .
+      dockerfile: Dockerfile.leaderless
+    environment:
+      PEERS: http://ll0:8080,http://ll1:8080,http://ll2:8080,http://ll3:8080,http://ll4:8080
+      NODE_INDEX: "4"
+      PORT: "8080"
+    ports: ["18084:8080"]
+    networks: [kv]
+
+networks:
+  kv:
+    name: kv-ll-net

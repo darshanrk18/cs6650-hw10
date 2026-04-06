@@ -1,0 +1,7597 @@
+{
+  "summary": {
+    "mode": "leader-follower",
+    "quorum_profile": "w1r5",
+    "write_ratio": 0.01,
+    "duration_sec": 50,
+    "total_samples": 843,
+    "reads": 836,
+    "writes": 7,
+    "stale_reads": 0,
+    "workers": 8,
+    "key_pool": 40,
+    "endpoints": 5
+  },
+  "samples": [
+    {
+      "kind": "write",
+      "latency_ms": 169,
+      "key": "k-029",
+      "stale": false,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "write",
+      "latency_ms": 176,
+      "key": "k-020",
+      "stale": false,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "write",
+      "latency_ms": 177,
+      "key": "k-014",
+      "stale": false,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "write",
+      "latency_ms": 179,
+      "key": "k-039",
+      "stale": false,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 216,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 24300,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 216,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 4640,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 216,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 5555,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 217,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1766,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 218,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 2384,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 218,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 20485,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 218,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 9137,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 218,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 953,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 5338,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12689,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 5475,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11387,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 7591,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6785,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 1528,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10293,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 21468,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10805,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1236,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10697,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14306,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13756,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 5255,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12707,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 903,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 219,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 5692,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 6955,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15142,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 4802,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 4682,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 23407,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 27086,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7218,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 21375,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 18019,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7295,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12192,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13633,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7671,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 20933,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 27933,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16477,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12360,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14697,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2601,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 6382,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12580,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 20915,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12880,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 24733,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 220,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 18999,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 2370,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12624,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13892,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 5280,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1616,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 9467,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10944,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13133,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8938,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12911,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1538,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8919,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10831,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 899,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22528,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13370,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1395,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7593,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1900,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 19434,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 23868,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 2062,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15880,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2683,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 3450,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17107,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12403,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 4022,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 221,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 330,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 6002,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 6992,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 960,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 24964,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 330,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13413,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14016,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 16208,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11027,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 299,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13148,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 9585,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 20259,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8955,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 909,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6837,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 3598,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7833,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1403,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8906,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 1909,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 5763,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1580,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 2427,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 24603,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22516,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10794,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17787,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12359,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13536,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13207,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 24449,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 222,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22882,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2745,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11337,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11167,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 1468,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12644,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13102,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14530,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 19323,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13072,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8482,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13580,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 6482,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 6229,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9224,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8508,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 2303,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15279,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12341,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14300,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17548,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22000,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 30816,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1233,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10738,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17779,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12672,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 2608,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 3638,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14076,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2461,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22249,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 921,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 1234,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 223,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16885,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15504,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 18156,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 5034,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 31155,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 20084,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 1924,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 31792,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6140,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 21249,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1548,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 6688,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 1480,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 398,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14921,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 665,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 805,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8035,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11114,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 8480,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 4986,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10284,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 280,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 9394,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13853,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 2489,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 6021,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 6033,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8832,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17406,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11405,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 6246,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 3002,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 2877,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 7133,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10060,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 25560,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 5262,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 9835,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 18012,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 4013,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8322,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 224,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 18104,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 9614,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 8005,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8150,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16702,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 2831,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2692,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 24101,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 6595,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 28277,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2381,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10806,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 25551,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2131,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 24398,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15424,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 6966,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11356,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1757,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 25189,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15048,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7453,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10190,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 20540,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 21218,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11435,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 3016,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 9169,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1628,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 3863,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 19011,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14755,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 1244,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9873,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6858,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 225,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11664,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 963,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 770,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 19951,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5699,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 16272,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10302,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15808,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 5404,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14476,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15274,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1689,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 20625,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17511,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1505,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15056,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1462,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 18028,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22025,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 27805,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 4866,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10815,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 6224,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6252,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 32259,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22754,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12807,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 18653,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14812,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1859,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 290,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13216,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 9409,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 226,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22963,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10626,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 16265,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 8655,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13794,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13566,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22755,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8284,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1500,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 515,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1723,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17335,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 10724,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 6934,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1984,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 526,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 2777,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 21585,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12430,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 1760,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 9973,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 227,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7274,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 2286,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12202,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17174,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 3510,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 227,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 4809,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 6059,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11216,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6565,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6369,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 24558,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1043,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 685,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8284,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 19692,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1324,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 3113,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7991,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 12194,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 16046,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5133,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1633,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 2531,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 30102,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14139,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 20556,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 3180,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 3910,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8352,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 3973,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 18461,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 228,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 2572,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 5705,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10532,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7823,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 9641,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17932,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1814,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10076,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13907,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 30264,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7240,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 849,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3544,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7901,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 6836,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 7286,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 26903,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14604,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1273,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 236,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14995,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14988,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14200,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 2197,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 874,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 645,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 229,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 22959,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15120,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8521,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 415,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12421,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 18872,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1278,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12527,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 11526,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 5572,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2238,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15862,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 9199,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 2447,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6632,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12758,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11958,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 24508,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 7197,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8131,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8608,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9268,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13028,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8012,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14890,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 230,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 5923,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15121,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 23651,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11896,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1589,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 13183,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 906,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 18884,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 7057,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17800,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 3932,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 5803,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2977,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9499,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 28140,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16322,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3298,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16121,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 4354,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9064,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 24862,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12028,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7588,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 20178,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12989,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14532,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 231,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 1560,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 4142,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12818,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12654,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2803,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9733,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9501,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11781,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11896,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 5058,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1082,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 1847,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 1148,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2239,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 462,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 4230,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13910,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12014,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11289,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 26183,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 232,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 26501,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 29281,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2917,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8889,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8302,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 7036,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 514,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15221,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14435,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 30750,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 20551,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16370,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12808,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15515,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 4915,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14374,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14374,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5139,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 20310,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 4360,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 233,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 9039,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15584,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 6286,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3533,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3462,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 5374,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 8951,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3462,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 2662,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11600,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9269,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 2653,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8717,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 8202,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 4146,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11794,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 20237,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8272,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 30626,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 234,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14141,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 27156,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 26560,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 8665,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8558,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13227,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 698,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 7161,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5624,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 3678,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 8886,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17343,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17316,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 235,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 19343,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "write",
+      "latency_ms": 236,
+      "key": "k-033",
+      "stale": false,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 236,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 12951,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 236,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4762,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 236,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16600,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 236,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9268,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 236,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 23554,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 236,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 28908,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 236,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1585,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 236,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10301,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 236,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17090,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 236,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 1242,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 237,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 9746,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 237,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 6745,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 237,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 26797,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 237,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 27588,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 237,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 6172,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 237,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 31612,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 237,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 4373,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 237,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 32306,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 237,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 461,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 238,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 27325,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 238,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 2079,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 238,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7594,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 238,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 1361,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 238,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 11448,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 238,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 5035,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 238,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 7303,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 238,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14889,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 238,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 29656,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 238,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 28076,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 239,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2358,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 239,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 10065,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 239,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 29700,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 239,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 30275,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 239,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 31472,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 239,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 397,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 239,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 9146,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 239,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 7930,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 239,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 6802,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 239,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 30630,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 240,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 29251,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 240,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 29897,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 240,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 10980,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 240,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 4567,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 240,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 25540,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 241,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7356,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 241,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 11789,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 241,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13535,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 241,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7356,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 241,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 2151,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 241,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 23893,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 241,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 5753,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 241,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7356,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 241,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 5086,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 10379,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 28865,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 24937,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10528,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1047,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 8149,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 29328,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22559,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 25835,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4586,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8234,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 242,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 3730,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 243,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 5374,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 243,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2131,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 243,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 32035,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 243,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 4418,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 243,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 12871,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 243,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 28441,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 243,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 9130,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 243,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17333,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 244,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 8032,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 244,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 3613,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 244,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 5006,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 244,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 7846,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 245,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 30930,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 245,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6614,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 246,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2826,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 246,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 13400,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 246,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9701,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 246,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 13117,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 247,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 12859,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 247,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15405,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 247,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 7889,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 247,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 10117,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 247,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5235,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 248,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 27578,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 248,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 5630,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 249,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 10859,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 249,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11508,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 250,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 5821,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 250,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 23876,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 250,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 580,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 250,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 825,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 250,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 28326,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 250,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 11347,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 250,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 29769,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 251,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 6680,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 251,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 12505,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 251,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 5161,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 251,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 5767,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 252,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 3192,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 252,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 4671,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 252,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 1309,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 252,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 9894,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 252,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2384,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 253,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10127,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 253,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14369,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 254,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9053,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 254,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 4905,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 255,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3946,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 255,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3946,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 256,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 7608,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 257,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 6926,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 257,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 3589,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 259,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 16199,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 259,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6046,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 260,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 29048,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 260,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14732,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 261,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 7787,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 261,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 9847,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 264,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 4432,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 265,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 722,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 265,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 6089,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 265,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1044,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 265,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 722,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 265,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4344,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 266,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1804,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 266,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 12100,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 266,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 28593,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 268,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 2896,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 268,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 13153,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 269,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5968,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 269,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14707,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 271,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 457,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 274,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16136,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 275,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8098,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 275,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 4459,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 276,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 5784,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 276,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 12518,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 276,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 11780,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 276,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 21969,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 276,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 27433,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 277,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11796,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 278,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8558,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 278,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1306,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 278,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 21085,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 279,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7115,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 279,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 6446,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 280,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1175,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 281,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 2908,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 281,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 32196,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 281,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2006,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 281,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 10255,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 285,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8558,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 285,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 5200,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 285,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5767,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 285,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 10627,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 285,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17107,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 286,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12031,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 286,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 30035,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 287,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1095,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 287,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 3180,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 287,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15282,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 287,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 3290,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 288,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4080,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 288,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 21874,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 289,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15432,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 291,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22850,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 291,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 23373,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 292,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 9702,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 292,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 8653,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 294,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 4359,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 294,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14594,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 295,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12421,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 295,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 1307,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 296,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16569,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 296,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 5325,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 296,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 11799,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 297,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 297,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 297,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11897,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 298,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 21619,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 298,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 12628,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 300,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 8841,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 303,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 2469,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 303,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 6573,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 303,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 8697,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 304,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 6237,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 304,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 21680,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 305,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 7286,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 306,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 8985,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 306,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 7846,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 306,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1180,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 307,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 2073,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 307,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17325,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 307,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13677,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 308,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 29224,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 308,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11665,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 308,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15041,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 309,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 6769,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 310,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 3866,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 310,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14300,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 310,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13190,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 310,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 6704,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 312,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 7922,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 313,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 23732,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 313,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 2253,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 314,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 3561,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 314,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10278,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 314,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11053,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 316,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4497,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 316,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16363,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 316,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10117,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 317,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 394,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 317,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 6003,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 319,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13910,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 323,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12117,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 324,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4270,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 328,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7822,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 328,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 32306,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 329,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5521,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 329,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10739,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 329,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 4796,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 330,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1773,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 330,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 22425,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 330,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 14427,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 331,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 5374,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 331,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1496,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 333,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4029,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 336,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15071,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 336,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 3002,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "write",
+      "latency_ms": 338,
+      "key": "k-012",
+      "stale": false,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 340,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 11939,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 340,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 4700,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 340,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10285,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 342,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 3219,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 342,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 28674,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 343,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 32602,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 345,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1927,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 346,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10074,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 347,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12585,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 348,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2683,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 348,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8038,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 348,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11258,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 348,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 9184,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 350,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 12518,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "write",
+      "latency_ms": 353,
+      "key": "k-003",
+      "stale": false,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 353,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10099,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 355,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 9245,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 355,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 6445,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 356,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1127,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 357,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 7162,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 358,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 1704,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 358,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7811,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 359,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17534,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 359,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1933,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 359,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 10477,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 360,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 4493,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 360,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 13067,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 361,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2111,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 362,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5521,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 363,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 2192,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 364,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 2920,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 364,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 3387,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 365,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 2343,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 365,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 16256,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 365,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 2848,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 365,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 4785,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 366,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17305,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 366,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 21806,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 367,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1601,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 368,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 3385,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 369,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 10549,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 369,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 3048,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 370,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 10059,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 370,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 1095,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 372,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4959,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 372,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15646,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 373,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10722,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 375,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4979,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 375,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 10669,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 376,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7812,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 376,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 25772,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 378,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 20953,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 381,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1206,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 381,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 12574,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 382,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 9106,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 384,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 20076,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 384,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3314,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 384,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1174,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 384,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 23402,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 386,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 6561,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 386,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17702,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 387,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 387,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 387,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11243,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 389,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1785,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 389,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2521,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 389,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7227,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 390,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14995,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 392,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 807,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 392,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 7456,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 393,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 15939,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 394,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 11209,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 394,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12227,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 394,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1357,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 395,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13930,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 395,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 5041,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 395,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 2110,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 395,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 6428,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 395,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 20076,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 396,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 627,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 396,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5916,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 396,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 2224,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 396,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4894,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 397,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3228,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 397,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 18554,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 397,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 574,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 397,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 3578,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 397,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7075,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 397,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 778,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 397,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 5711,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 398,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 1308,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 398,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7901,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 399,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 18179,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 400,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1887,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 400,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 23060,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 400,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17489,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 400,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 12297,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 400,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 3473,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 400,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 3348,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 400,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 414,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 401,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 815,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 401,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2346,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 401,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 789,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 402,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 28081,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 402,
+      "key": "k-014",
+      "stale": false,
+      "since_write_same_key_ms": 12839,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 403,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 11549,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 403,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 5382,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 403,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 9100,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 403,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17515,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 404,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7701,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 404,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 4651,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 404,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 5809,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 404,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17747,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 405,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1449,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 405,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 14315,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 405,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 17107,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 406,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3748,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 406,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 9205,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 406,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8307,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 407,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 22316,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 407,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4731,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 409,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5180,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 409,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 6051,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 410,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 7269,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 410,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 5391,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 410,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 3327,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 411,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 1010,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 411,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 415,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 412,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 4938,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 414,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 1496,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 415,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 32383,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 416,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 15638,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 422,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 30930,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 426,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 7115,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 426,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 8778,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 430,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 4905,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 431,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 30290,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 433,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 17089,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 434,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 3767,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 437,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 27763,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 438,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 7906,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 440,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 13612,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 454,
+      "key": "k-029",
+      "stale": false,
+      "since_write_same_key_ms": 848,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 472,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 4788,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 483,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 18945,
+      "version": 1,
+      "expected_version": 1
+    },
+    {
+      "kind": "read",
+      "latency_ms": 505,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 5481,
+      "version": 1,
+      "expected_version": 1
+    }
+  ]
+}

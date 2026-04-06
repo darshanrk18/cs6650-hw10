@@ -1,0 +1,130 @@
+#!/bin/bash
+# CS6650 KV cluster on Amazon Linux 2023 — pulls from ECR and starts compose.
+set -ex
+# AL2023: do not dnf install `curl` (conflicts with curl-minimal; /usr/bin/curl already exists).
+# docker-compose-plugin is often missing from repos — install Compose v2 binary instead.
+dnf install -y docker awscli
+systemctl enable docker --now
+curl -fsSL "https://github.com/docker/compose/releases/download/v2.27.1/docker-compose-linux-x86_64" \
+  -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+ln -sf /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+mkdir -p /opt/kv
+cd /opt/kv
+
+aws ecr get-login-password --region ${aws_region} | docker login --username AWS --password-stdin ${ecr_registry}
+
+cat > docker-compose.lf.yml <<'YEOF'
+services:
+  lf0:
+    image: ${image_lf}
+    environment:
+      PEERS: http://lf0:8080,http://lf1:8080,http://lf2:8080,http://lf3:8080,http://lf4:8080
+      NODE_INDEX: "0"
+      QUORUM_PROFILE: ${quorum_profile}
+      PORT: "8080"
+    ports: ["8080:8080"]
+    networks: [kv]
+  lf1:
+    image: ${image_lf}
+    environment:
+      PEERS: http://lf0:8080,http://lf1:8080,http://lf2:8080,http://lf3:8080,http://lf4:8080
+      NODE_INDEX: "1"
+      QUORUM_PROFILE: ${quorum_profile}
+      PORT: "8080"
+    ports: ["8081:8080"]
+    networks: [kv]
+  lf2:
+    image: ${image_lf}
+    environment:
+      PEERS: http://lf0:8080,http://lf1:8080,http://lf2:8080,http://lf3:8080,http://lf4:8080
+      NODE_INDEX: "2"
+      QUORUM_PROFILE: ${quorum_profile}
+      PORT: "8080"
+    ports: ["8082:8080"]
+    networks: [kv]
+  lf3:
+    image: ${image_lf}
+    environment:
+      PEERS: http://lf0:8080,http://lf1:8080,http://lf2:8080,http://lf3:8080,http://lf4:8080
+      NODE_INDEX: "3"
+      QUORUM_PROFILE: ${quorum_profile}
+      PORT: "8080"
+    ports: ["8083:8080"]
+    networks: [kv]
+  lf4:
+    image: ${image_lf}
+    environment:
+      PEERS: http://lf0:8080,http://lf1:8080,http://lf2:8080,http://lf3:8080,http://lf4:8080
+      NODE_INDEX: "4"
+      QUORUM_PROFILE: ${quorum_profile}
+      PORT: "8080"
+    ports: ["8084:8080"]
+    networks: [kv]
+networks:
+  kv:
+    name: kv-lf-net-aws
+YEOF
+
+cat > docker-compose.ll.yml <<'YEOF'
+services:
+  ll0:
+    image: ${image_ll}
+    environment:
+      PEERS: http://ll0:8080,http://ll1:8080,http://ll2:8080,http://ll3:8080,http://ll4:8080
+      NODE_INDEX: "0"
+      PORT: "8080"
+    ports: ["18080:8080"]
+    networks: [kvll]
+  ll1:
+    image: ${image_ll}
+    environment:
+      PEERS: http://ll0:8080,http://ll1:8080,http://ll2:8080,http://ll3:8080,http://ll4:8080
+      NODE_INDEX: "1"
+      PORT: "8080"
+    ports: ["18081:8080"]
+    networks: [kvll]
+  ll2:
+    image: ${image_ll}
+    environment:
+      PEERS: http://ll0:8080,http://ll1:8080,http://ll2:8080,http://ll3:8080,http://ll4:8080
+      NODE_INDEX: "2"
+      PORT: "8080"
+    ports: ["18082:8080"]
+    networks: [kvll]
+  ll3:
+    image: ${image_ll}
+    environment:
+      PEERS: http://ll0:8080,http://ll1:8080,http://ll2:8080,http://ll3:8080,http://ll4:8080
+      NODE_INDEX: "3"
+      PORT: "8080"
+    ports: ["18083:8080"]
+    networks: [kvll]
+  ll4:
+    image: ${image_ll}
+    environment:
+      PEERS: http://ll0:8080,http://ll1:8080,http://ll2:8080,http://ll3:8080,http://ll4:8080
+      NODE_INDEX: "4"
+      PORT: "8080"
+    ports: ["18084:8080"]
+    networks: [kvll]
+networks:
+  kvll:
+    name: kv-ll-net-aws
+YEOF
+
+# Wait until Operator has pushed images to ECR (fresh account / first deploy).
+# C-style loop avoids Terraform templatefile `$$` / `$()` edge cases in rendered user-data.
+for ((attempt=1; attempt<=60; attempt++)); do
+  if docker-compose -f docker-compose.lf.yml pull && docker-compose -f docker-compose.ll.yml pull; then
+    break
+  fi
+  echo "ecr pull failed; retry in 30s ($attempt/60)"
+  sleep 30
+done
+
+docker-compose -f docker-compose.lf.yml -p kvlf up -d
+docker-compose -f docker-compose.ll.yml -p kvll up -d
+
+touch /opt/kv/ready.flag

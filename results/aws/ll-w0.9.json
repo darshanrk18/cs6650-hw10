@@ -1,0 +1,2464 @@
+{
+  "summary": {
+    "mode": "leaderless",
+    "write_ratio": 0.9,
+    "duration_sec": 50,
+    "total_samples": 304,
+    "reads": 23,
+    "writes": 281,
+    "stale_reads": 0,
+    "workers": 8,
+    "key_pool": 40,
+    "endpoints": 5
+  },
+  "samples": [
+    {
+      "kind": "read",
+      "latency_ms": 168,
+      "key": "k-032",
+      "stale": false,
+      "since_write_same_key_ms": 168,
+      "version": 43,
+      "expected_version": 43
+    },
+    {
+      "kind": "read",
+      "latency_ms": 169,
+      "key": "k-013",
+      "stale": false,
+      "since_write_same_key_ms": 13355,
+      "version": 21,
+      "expected_version": 21
+    },
+    {
+      "kind": "read",
+      "latency_ms": 169,
+      "key": "k-012",
+      "stale": false,
+      "since_write_same_key_ms": 13354,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "read",
+      "latency_ms": 170,
+      "key": "k-019",
+      "stale": false,
+      "version": 26
+    },
+    {
+      "kind": "read",
+      "latency_ms": 170,
+      "key": "k-017",
+      "stale": false,
+      "since_write_same_key_ms": 2063,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "read",
+      "latency_ms": 170,
+      "key": "k-007",
+      "stale": false,
+      "since_write_same_key_ms": 1063,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "read",
+      "latency_ms": 170,
+      "key": "k-003",
+      "stale": false,
+      "since_write_same_key_ms": 1695,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "read",
+      "latency_ms": 171,
+      "key": "k-030",
+      "stale": false,
+      "version": 19
+    },
+    {
+      "kind": "read",
+      "latency_ms": 171,
+      "key": "k-001",
+      "stale": false,
+      "since_write_same_key_ms": 12725,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "read",
+      "latency_ms": 175,
+      "key": "k-015",
+      "stale": false,
+      "since_write_same_key_ms": 6386,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "read",
+      "latency_ms": 176,
+      "key": "k-021",
+      "stale": false,
+      "since_write_same_key_ms": 8638,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "read",
+      "latency_ms": 178,
+      "key": "k-021",
+      "stale": false,
+      "since_write_same_key_ms": 9496,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "read",
+      "latency_ms": 179,
+      "key": "k-002",
+      "stale": false,
+      "since_write_same_key_ms": 219,
+      "version": 42,
+      "expected_version": 42
+    },
+    {
+      "kind": "read",
+      "latency_ms": 180,
+      "key": "k-039",
+      "stale": false,
+      "since_write_same_key_ms": 4456,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "read",
+      "latency_ms": 181,
+      "key": "k-020",
+      "stale": false,
+      "since_write_same_key_ms": 1582,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "read",
+      "latency_ms": 184,
+      "key": "k-028",
+      "stale": false,
+      "since_write_same_key_ms": 3273,
+      "version": 31,
+      "expected_version": 30
+    },
+    {
+      "kind": "read",
+      "latency_ms": 190,
+      "key": "k-030",
+      "stale": false,
+      "version": 19,
+      "expected_version": 19
+    },
+    {
+      "kind": "read",
+      "latency_ms": 299,
+      "key": "k-019",
+      "stale": false,
+      "since_write_same_key_ms": 6163,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "read",
+      "latency_ms": 334,
+      "key": "k-037",
+      "stale": false,
+      "since_write_same_key_ms": 5674,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "read",
+      "latency_ms": 335,
+      "key": "k-017",
+      "stale": false,
+      "since_write_same_key_ms": 2029,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "read",
+      "latency_ms": 340,
+      "key": "k-033",
+      "stale": false,
+      "since_write_same_key_ms": 2272,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "read",
+      "latency_ms": 348,
+      "key": "k-026",
+      "stale": false,
+      "since_write_same_key_ms": 8620,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "read",
+      "latency_ms": 353,
+      "key": "k-018",
+      "stale": false,
+      "version": 24
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1373,
+      "key": "k-006",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-032",
+      "stale": false,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-002",
+      "stale": false,
+      "version": 40,
+      "expected_version": 40
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-001",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-032",
+      "stale": false,
+      "version": 40,
+      "expected_version": 40
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-010",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-037",
+      "stale": false,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-037",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-034",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-027",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-000",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-009",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-013",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-020",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1375,
+      "key": "k-036",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-029",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-003",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-024",
+      "stale": false,
+      "version": 43,
+      "expected_version": 43
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-011",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-009",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-015",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-016",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-027",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-005",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-001",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-021",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1376,
+      "key": "k-037",
+      "stale": false,
+      "version": 38,
+      "expected_version": 38
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-032",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-029",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-006",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-013",
+      "stale": false,
+      "version": 23,
+      "expected_version": 23
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-017",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-029",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-003",
+      "stale": false,
+      "version": 40,
+      "expected_version": 40
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-017",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-017",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-022",
+      "stale": false,
+      "version": 23,
+      "expected_version": 23
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1377,
+      "key": "k-030",
+      "stale": false,
+      "version": 21,
+      "expected_version": 21
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-019",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-021",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-036",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-002",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-024",
+      "stale": false,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-037",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-022",
+      "stale": false,
+      "version": 22,
+      "expected_version": 22
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-034",
+      "stale": false,
+      "version": 21,
+      "expected_version": 21
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-034",
+      "stale": false,
+      "version": 23,
+      "expected_version": 23
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-017",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-035",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-021",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-017",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-035",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-016",
+      "stale": false,
+      "version": 40,
+      "expected_version": 40
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-035",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-031",
+      "stale": false,
+      "version": 19,
+      "expected_version": 19
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-024",
+      "stale": false,
+      "version": 41,
+      "expected_version": 41
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-034",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-013",
+      "stale": false,
+      "version": 21,
+      "expected_version": 21
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-028",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-038",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1378,
+      "key": "k-013",
+      "stale": false,
+      "version": 20,
+      "expected_version": 20
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-028",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-025",
+      "stale": false,
+      "version": 40,
+      "expected_version": 40
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-020",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-039",
+      "stale": false,
+      "version": 24,
+      "expected_version": 24
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-027",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-032",
+      "stale": false,
+      "version": 43,
+      "expected_version": 43
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-006",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-039",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-034",
+      "stale": false,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-018",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-039",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-013",
+      "stale": false,
+      "version": 17,
+      "expected_version": 17
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-017",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-031",
+      "stale": false,
+      "version": 22,
+      "expected_version": 22
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-018",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-028",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-022",
+      "stale": false,
+      "version": 19,
+      "expected_version": 19
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-001",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-015",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-033",
+      "stale": false,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-010",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1379,
+      "key": "k-026",
+      "stale": false,
+      "version": 24,
+      "expected_version": 24
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-018",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-014",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-002",
+      "stale": false,
+      "version": 41,
+      "expected_version": 41
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-023",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-022",
+      "stale": false,
+      "version": 20,
+      "expected_version": 20
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-034",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-004",
+      "stale": false,
+      "version": 46,
+      "expected_version": 46
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-031",
+      "stale": false,
+      "version": 21,
+      "expected_version": 21
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-004",
+      "stale": false,
+      "version": 47,
+      "expected_version": 47
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-002",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-039",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-017",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1380,
+      "key": "k-024",
+      "stale": false,
+      "version": 45,
+      "expected_version": 45
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-001",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-010",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-032",
+      "stale": false,
+      "version": 45,
+      "expected_version": 45
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-018",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-034",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-023",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-012",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-037",
+      "stale": false,
+      "version": 40,
+      "expected_version": 40
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-011",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-014",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-017",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-034",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-033",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-011",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1381,
+      "key": "k-012",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1382,
+      "key": "k-004",
+      "stale": false,
+      "version": 40,
+      "expected_version": 40
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1382,
+      "key": "k-010",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1382,
+      "key": "k-025",
+      "stale": false,
+      "version": 39,
+      "expected_version": 39
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1382,
+      "key": "k-020",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1382,
+      "key": "k-034",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1382,
+      "key": "k-014",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1382,
+      "key": "k-024",
+      "stale": false,
+      "version": 44,
+      "expected_version": 44
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-012",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-014",
+      "stale": false,
+      "version": 24,
+      "expected_version": 24
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-004",
+      "stale": false,
+      "version": 45,
+      "expected_version": 45
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-036",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-037",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-025",
+      "stale": false,
+      "version": 38,
+      "expected_version": 38
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-027",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-026",
+      "stale": false,
+      "version": 23,
+      "expected_version": 23
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-018",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-008",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1383,
+      "key": "k-026",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-004",
+      "stale": false,
+      "version": 47,
+      "expected_version": 47
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-029",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-018",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-038",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-024",
+      "stale": false,
+      "version": 43,
+      "expected_version": 43
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-030",
+      "stale": false,
+      "version": 23,
+      "expected_version": 23
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-032",
+      "stale": false,
+      "version": 38,
+      "expected_version": 38
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-012",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-006",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-037",
+      "stale": false,
+      "version": 40,
+      "expected_version": 40
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-032",
+      "stale": false,
+      "version": 44,
+      "expected_version": 44
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1384,
+      "key": "k-018",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1385,
+      "key": "k-034",
+      "stale": false,
+      "version": 22,
+      "expected_version": 22
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1385,
+      "key": "k-027",
+      "stale": false,
+      "version": 24,
+      "expected_version": 24
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1385,
+      "key": "k-034",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1385,
+      "key": "k-016",
+      "stale": false,
+      "version": 38,
+      "expected_version": 38
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1385,
+      "key": "k-002",
+      "stale": false,
+      "version": 43,
+      "expected_version": 43
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1385,
+      "key": "k-014",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1385,
+      "key": "k-018",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1385,
+      "key": "k-015",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1386,
+      "key": "k-039",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1386,
+      "key": "k-034",
+      "stale": false,
+      "version": 24,
+      "expected_version": 24
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1386,
+      "key": "k-023",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1386,
+      "key": "k-028",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1386,
+      "key": "k-024",
+      "stale": false,
+      "version": 38,
+      "expected_version": 38
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1386,
+      "key": "k-006",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1386,
+      "key": "k-018",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1386,
+      "key": "k-019",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1386,
+      "key": "k-036",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1386,
+      "key": "k-007",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1387,
+      "key": "k-006",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1387,
+      "key": "k-026",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1387,
+      "key": "k-000",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1387,
+      "key": "k-000",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1387,
+      "key": "k-026",
+      "stale": false,
+      "version": 22,
+      "expected_version": 22
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1388,
+      "key": "k-024",
+      "stale": false,
+      "version": 40,
+      "expected_version": 40
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1388,
+      "key": "k-026",
+      "stale": false,
+      "version": 23,
+      "expected_version": 23
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1388,
+      "key": "k-033",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1388,
+      "key": "k-014",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1388,
+      "key": "k-016",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1388,
+      "key": "k-010",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1388,
+      "key": "k-028",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1388,
+      "key": "k-018",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1389,
+      "key": "k-005",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1389,
+      "key": "k-030",
+      "stale": false,
+      "version": 22,
+      "expected_version": 22
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1389,
+      "key": "k-034",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1389,
+      "key": "k-004",
+      "stale": false,
+      "version": 38,
+      "expected_version": 38
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1389,
+      "key": "k-025",
+      "stale": false,
+      "version": 41,
+      "expected_version": 41
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1390,
+      "key": "k-007",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1390,
+      "key": "k-033",
+      "stale": false,
+      "version": 38,
+      "expected_version": 38
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1390,
+      "key": "k-002",
+      "stale": false,
+      "version": 39,
+      "expected_version": 39
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1390,
+      "key": "k-039",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1390,
+      "key": "k-034",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1391,
+      "key": "k-026",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1391,
+      "key": "k-017",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1392,
+      "key": "k-018",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1392,
+      "key": "k-009",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1392,
+      "key": "k-004",
+      "stale": false,
+      "version": 41,
+      "expected_version": 41
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1392,
+      "key": "k-000",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1392,
+      "key": "k-036",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1393,
+      "key": "k-007",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1393,
+      "key": "k-020",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1394,
+      "key": "k-030",
+      "stale": false,
+      "version": 20,
+      "expected_version": 20
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1394,
+      "key": "k-015",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1394,
+      "key": "k-002",
+      "stale": false,
+      "version": 38,
+      "expected_version": 38
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1395,
+      "key": "k-027",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1395,
+      "key": "k-031",
+      "stale": false,
+      "version": 18,
+      "expected_version": 18
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1395,
+      "key": "k-016",
+      "stale": false,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1395,
+      "key": "k-032",
+      "stale": false,
+      "version": 39,
+      "expected_version": 39
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1395,
+      "key": "k-039",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1395,
+      "key": "k-013",
+      "stale": false,
+      "version": 18,
+      "expected_version": 18
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1396,
+      "key": "k-003",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1398,
+      "key": "k-023",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1399,
+      "key": "k-003",
+      "stale": false,
+      "version": 38,
+      "expected_version": 38
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1399,
+      "key": "k-029",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1399,
+      "key": "k-004",
+      "stale": false,
+      "version": 42,
+      "expected_version": 42
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1399,
+      "key": "k-032",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1401,
+      "key": "k-033",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1401,
+      "key": "k-025",
+      "stale": false,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1402,
+      "key": "k-024",
+      "stale": false,
+      "version": 42,
+      "expected_version": 42
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1405,
+      "key": "k-016",
+      "stale": false,
+      "version": 39,
+      "expected_version": 39
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1405,
+      "key": "k-024",
+      "stale": false,
+      "version": 39,
+      "expected_version": 39
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1408,
+      "key": "k-032",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1408,
+      "key": "k-002",
+      "stale": false,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1411,
+      "key": "k-026",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1411,
+      "key": "k-004",
+      "stale": false,
+      "version": 43,
+      "expected_version": 43
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1421,
+      "key": "k-034",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1424,
+      "key": "k-023",
+      "stale": false,
+      "version": 24,
+      "expected_version": 24
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1427,
+      "key": "k-022",
+      "stale": false,
+      "version": 22,
+      "expected_version": 22
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1446,
+      "key": "k-007",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1447,
+      "key": "k-022",
+      "stale": false,
+      "version": 24,
+      "expected_version": 24
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1448,
+      "key": "k-013",
+      "stale": false,
+      "version": 24,
+      "expected_version": 24
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1503,
+      "key": "k-008",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1505,
+      "key": "k-003",
+      "stale": false,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1510,
+      "key": "k-019",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1516,
+      "key": "k-002",
+      "stale": false,
+      "version": 42,
+      "expected_version": 42
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1525,
+      "key": "k-013",
+      "stale": false,
+      "version": 19,
+      "expected_version": 19
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1526,
+      "key": "k-035",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1528,
+      "key": "k-007",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1529,
+      "key": "k-009",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1529,
+      "key": "k-038",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1530,
+      "key": "k-022",
+      "stale": false,
+      "version": 19,
+      "expected_version": 19
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1533,
+      "key": "k-008",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1533,
+      "key": "k-004",
+      "stale": false,
+      "version": 37,
+      "expected_version": 37
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1534,
+      "key": "k-009",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1544,
+      "key": "k-007",
+      "stale": false,
+      "version": 36,
+      "expected_version": 36
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1544,
+      "key": "k-012",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1544,
+      "key": "k-013",
+      "stale": false,
+      "version": 22,
+      "expected_version": 22
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1545,
+      "key": "k-032",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1546,
+      "key": "k-022",
+      "stale": false,
+      "version": 21,
+      "expected_version": 21
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1547,
+      "key": "k-004",
+      "stale": false,
+      "version": 39,
+      "expected_version": 39
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1547,
+      "key": "k-006",
+      "stale": false,
+      "version": 35,
+      "expected_version": 35
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1548,
+      "key": "k-020",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1548,
+      "key": "k-034",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1548,
+      "key": "k-029",
+      "stale": false,
+      "version": 32,
+      "expected_version": 32
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1548,
+      "key": "k-019",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1548,
+      "key": "k-011",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1549,
+      "key": "k-026",
+      "stale": false,
+      "version": 21,
+      "expected_version": 21
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1550,
+      "key": "k-004",
+      "stale": false,
+      "version": 44,
+      "expected_version": 44
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1550,
+      "key": "k-036",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1551,
+      "key": "k-008",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1551,
+      "key": "k-039",
+      "stale": false,
+      "version": 25,
+      "expected_version": 25
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1551,
+      "key": "k-003",
+      "stale": false,
+      "version": 39,
+      "expected_version": 39
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1551,
+      "key": "k-018",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1551,
+      "key": "k-031",
+      "stale": false,
+      "version": 20,
+      "expected_version": 20
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1554,
+      "key": "k-015",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1555,
+      "key": "k-014",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1555,
+      "key": "k-004",
+      "stale": false,
+      "version": 48,
+      "expected_version": 48
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1555,
+      "key": "k-037",
+      "stale": false,
+      "version": 39,
+      "expected_version": 39
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1556,
+      "key": "k-031",
+      "stale": false,
+      "version": 22,
+      "expected_version": 22
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1559,
+      "key": "k-016",
+      "stale": false,
+      "version": 40,
+      "expected_version": 40
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1560,
+      "key": "k-005",
+      "stale": false,
+      "version": 28,
+      "expected_version": 28
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1561,
+      "key": "k-029",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1562,
+      "key": "k-027",
+      "stale": false,
+      "version": 22,
+      "expected_version": 22
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1563,
+      "key": "k-032",
+      "stale": false,
+      "version": 41,
+      "expected_version": 41
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1564,
+      "key": "k-033",
+      "stale": false,
+      "version": 39,
+      "expected_version": 39
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1564,
+      "key": "k-017",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1565,
+      "key": "k-009",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1566,
+      "key": "k-039",
+      "stale": false,
+      "version": 31,
+      "expected_version": 31
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1566,
+      "key": "k-008",
+      "stale": false,
+      "version": 26,
+      "expected_version": 26
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1567,
+      "key": "k-011",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1568,
+      "key": "k-033",
+      "stale": false,
+      "version": 34,
+      "expected_version": 34
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1568,
+      "key": "k-000",
+      "stale": false,
+      "version": 23,
+      "expected_version": 23
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1569,
+      "key": "k-025",
+      "stale": false,
+      "version": 39,
+      "expected_version": 39
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1571,
+      "key": "k-010",
+      "stale": false,
+      "version": 30,
+      "expected_version": 30
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1571,
+      "key": "k-027",
+      "stale": false,
+      "version": 23,
+      "expected_version": 23
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1571,
+      "key": "k-019",
+      "stale": false,
+      "version": 29,
+      "expected_version": 29
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1573,
+      "key": "k-022",
+      "stale": false,
+      "version": 18,
+      "expected_version": 18
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1574,
+      "key": "k-000",
+      "stale": false,
+      "version": 24,
+      "expected_version": 24
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1575,
+      "key": "k-034",
+      "stale": false,
+      "version": 27,
+      "expected_version": 27
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1581,
+      "key": "k-006",
+      "stale": false,
+      "version": 33,
+      "expected_version": 33
+    },
+    {
+      "kind": "write",
+      "latency_ms": 1611,
+      "key": "k-032",
+      "stale": false,
+      "version": 42,
+      "expected_version": 42
+    }
+  ]
+}
